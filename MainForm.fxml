@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Label stylesheets="@styles.css" fx:id="timeLabel" alignment="CENTER" prefHeight="70.0" prefWidth="187.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dan.MainFormController">
+   <font>
+      <Font size="48.0" />
+   </font>
+   <contextMenu>
+      <ContextMenu>
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#handleExitAction" text="Exit Clock" />
+         </items>
+      </ContextMenu>
+   </contextMenu>
+</Label>

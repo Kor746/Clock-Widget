@@ -1,0 +1,13 @@
+@font-face {
+	-fx-font-family: 'Digital-7';
+	src: url('digital-7.ttf');
+
+}
+
+.root {
+	-fx-font-family: 'Digital-7';
+	-fx-font-size: 3.5em;
+	-fx-text-fill: blue;
+	-fx-effect: dropshadow(three-pass-box, #49fb35, 10, 0, 1, 1);
+	-fx-alignment: CENTER;
+}
